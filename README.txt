@@ -1,6 +1,6 @@
 The original version of FUSE is generally available from: https://github.com/lrcfmd/FUSE-stable
 The version provided uses Reinforcement Learning package RLCSP (https://github.com/lrcfmd/rlcsp) to optimize basin hopping routine.
-The input files 'input\_\<composition\>.py' for five compositions are provided to run FUSE with RLCSP.
+The input files 'input_<composition>.py' for five compositions are provided to run FUSE with RLCSP.
 
 ################################################################################
 
