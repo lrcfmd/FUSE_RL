@@ -1,3 +1,9 @@
+The original version of FUSE is generally available from: https://github.com/lrcfmd/FUSE-stable
+The version provided uses Reinforcement Learning package RLCSP (https://github.com/lrcfmd/rlcsp) to optimize basin hopping routine.
+The input files 'input_<composition>.py' for five compositions are provided to run FUSE with RLCSP.
+
+################################################################################
+
 Instructions for installing FUSE:
 
 Requirements:
@@ -59,22 +65,6 @@ VASP_PP_PATH - this is the path to pseudo poential files for VASP
 VASP_SCRIPT - path to a python script containing the required system command to 
 run vasp (see example "vasp.py")
 
-################################################################################
-
-example inputs:
-
-"input_gulp_example.py" : computing 2 structures of Y2Ti2O7 with upto 22 atoms
-per unit cell, using GULP as the calculator and based upon a genetic algorithm
-search, using the potentials found in "lib2.lib"
-
-"input_vasp_example.py" : to create and run two structures of SrTiO3 with up to
-10 atoms per unit cell - note that you will need to set "xc" option in 
-"vasp_opts" to match the pseudo potentials you wish to use. When running this 
-example, I only had PBE pseudo potentials on the machine in  a folder, so I 
-didn't need to set "xc". You will also need to adjust "vasp.py" to include the
-vasp run command on your machine.
-
-################################################################################
 
 
 
